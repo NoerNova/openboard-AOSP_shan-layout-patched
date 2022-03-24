@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+            <!-- U+1078: "ေ" Myanmar Vowel Sign E -->
+            <Key latin:keySpec="&#x1031;" />
+            <!-- U+1010: "ျ" Myanmar Consonant Sign Medial Ya -->
+            <Key latin:keySpec="&#x103B;" />
+            <!-- U+107C: "ိ" Myanmar Vowel Sign I -->
+            <Key latin:keySpec="&#x102D;" />
+            <!-- U+1019: "်" Myanmar Sign Asat -->
+            <Key latin:keySpec="&#x103A;" />
+            <!-- U+1084: "ႂ" Myanmar Consonant Sign Shan Medial Wa -->
+            <Key latin:keySpec="&#x1082;" />
+            <!-- U+1015: "ႉ" Myanmar Sign Shan Tone-5 -->
+            <Key latin:keySpec="&#x1089;" />
+            <!-- U+1075: "ႈ" Myanmar Sign Shan Tone-3 -->
+            <Key latin:keySpec="&#x1088;" />
+            <!-- U+1004: "ု" Myanmar Vowel Sign U -->
+            <Key latin:keySpec="&#x102F;" />
+            <!-- U+101E: "ူ" Myanmar Vowel Sign Uu -->
+            <Key latin:keySpec="&#x1030;" />
+            <!-- U+107A: "း" Myanmar Sign Visarga -->
+            <Key latin:keySpec="&#x1038;" />
+        </case>
+        <default>
+           <!-- U+1078: "ၸ" Myanmar Letter Shan Ca
+                 U+0E59: "႑" Myanmar Shan Digit One -->
+            <Key
+                latin:keySpec="&#x1078;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1091;" />
+           <!-- U+1010: "တ" Myanmar Letter Ta
+                 U+0E59: "႒" Myanmar Shan Digit Two -->
+            <Key
+                latin:keySpec="&#x1010;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1092;" />
+           <!-- U+107C: "ၼ" Myanmar Letter Shan Na
+                 U+0E59: "႓" Myanmar Shan Digit Three -->
+            <Key
+                latin:keySpec="&#x107C;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1093;" />
+           <!-- U+1019: "မ" Myanmar Letter Ma
+                 U+0E59: "႔" Myanmar Shan Digit Four -->
+            <Key
+                latin:keySpec="&#x1019;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1094;" />
+           <!-- U+1084: "ႄ" Myanmar Vowel Sign Shan E
+                 U+0E59: "႕" Myanmar Shan Digit Five -->
+            <Key
+                latin:keySpec="&#x1084;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1095;" />
+           <!-- U+1015: "ပ" Myanmar Letter Pa
+                 U+0E59: "႖" Myanmar Shan Digit Six -->
+            <Key
+                latin:keySpec="&#x1015;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1096;" />
+           <!-- U+1075: "ၵ" Myanmar Letter Shan Ka
+                 U+0E59: "႗" Myanmar Shan Digit Seven -->
+            <Key
+                latin:keySpec="&#x1075;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1097;" />
+           <!-- U+1004: "င" Myanmar Letter Nga
+                 U+0E59: "႘" Myanmar Shan Digit Eight -->
+            <Key
+                latin:keySpec="&#x1004;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1098;" />
+           <!-- U+101E: "သ" Myanmar Letter Sa
+                 U+0E59: "႙" Myanmar Shan Digit Nine -->
+            <Key
+                latin:keySpec="&#x101E;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1099;" />
+           <!-- U+107A: "ၺ" Myanmar Letter Shan Nya
+                 U+0E59: "႐" Myanmar Shan Digit Zero -->
+            <Key
+                latin:keySpec="&#x107A;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9"
+                latin:moreKeys="&#x1090;" />
+        </default>
+    </switch>
+</merge>

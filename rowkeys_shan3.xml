@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+           <!-- U+107E: "ၾ" Myanmar Letter Shan Fa -->
+            <Key latin:keySpec="&#x107E;" />
+            <!-- U+AA6A: "ꩪ" Myanmar Letter Khamti Dha -->
+            <Key latin:keySpec="&#xAA6A;" />
+            <!-- U+A9E0: "ꧠ" Myanmar Letter Shan Gha -->
+            <Key latin:keySpec="&#xA9E0;" />
+            <!-- U+AA6E: "ꩮ" Myanmar Letter Khamti Hha -->
+            <Key latin:keySpec="&#xAA6E;" />
+            <!-- U+1086: "ႆ" Myanmar Vowel Sign Shan Final Y -->
+            <Key latin:keySpec="&#x1086;" />
+            <!-- U+103D: "ွ" Myanmar Consonant Sign Medial Wa -->
+            <Key latin:keySpec="&#x103D;" />
+            <!-- U+1083: "ႃ" Myanmar Vowel Sign Shan Aa -->
+            <Key latin:keySpec="&#x1083;" />
+            <!-- U+A9E6: "ꧦ" Myanmar Modifier Letter Shan Reduplication -->
+            <Key latin:keySpec="&#xA9E6;" />
+        </case>
+        <default>
+             <!-- U+107D: "ၽ" Myanmar Letter Shan Pha -->
+            <Key latin:keySpec="&#x107D;" />
+            <!-- U+1011: "ထ" Myanmar Letter Tha -->
+            <Key latin:keySpec="&#x1011;" />
+            <!-- U+1076: "ၶ" Myanmar Letter Shan Kha -->
+            <Key latin:keySpec="&#x1076;" />
+            <!-- U+101C: "လ" Myanmar Letter La -->
+            <Key latin:keySpec="&#x101C;" />
+            <!-- U+1087: "ႇ" Myanmar Sign Shan Tone-2 -->
+            <Key latin:keySpec="&#x1087;" />
+            <!-- U+1022: "ဢ" Myanmar Letter Shan A -->
+            <Key latin:keySpec="&#x1022;" />
+            <!-- U+1062: "ၢ" Myanmar Vowel Sign Sgaw Karen Eu -->
+            <Key latin:keySpec="&#x1062;" />
+            <!-- U+101A: "ယ" Myanmar Letter Ya -->
+            <Key latin:keySpec="&#x101A;" />
+        </default>
+    </switch>
+</merge>
