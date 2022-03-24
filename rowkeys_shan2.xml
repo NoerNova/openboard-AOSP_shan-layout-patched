@@ -24,17 +24,17 @@
             <!-- U+1035: "ဵ" Myanmar Vowel Sign E Above -->
             <Key latin:keySpec="&#x1035;" />
             <!-- U+106A: "ှ" Myanmar Consonant Sign Medial Ha -->
-            <Key latin:keySpec="&#x106A;" />
+            <Key latin:keySpec="&#x103E;" />
             <!-- U+102E: "ီ" Myanmar Vowel Sign Ii -->
             <Key latin:keySpec="&#x102E;" />
             <!-- U+1085: "ႅ" Myanmar Vowel Sign Shan E Above -->
             <Key latin:keySpec="&#x1085;" />
-            <!-- U+103A: "်" Myanmar Sign Asat 
+            <!-- U+103A: "်" Myanmar Sign Asat
                  U+1082: "ႂ" Myanmar Consonant Sign Shan Medial Wa -->
             <Key latin:keySpec="&#x103A;&#x1082;"
                 latin:keyLabelFlags="followKeyLetterRatio" />
             <!-- U+108B: "ံ" Myanmar Sign Anusvara -->
-            <Key latin:keySpec="&#x108B;" />
+            <Key latin:keySpec="&#x1036;" />
             <!-- U+1037: "့" Myanmar Sign Dot Below -->
             <Key latin:keySpec="&#x1037;" />
             <!-- U+101B: "ရ" Myanmar Letter Ra -->
@@ -45,26 +45,26 @@
             <Key latin:keySpec="&#x108A;" />
         </case>
         <default>
-            <!-- U+1079: "ၹ" Myanmar Letter Shan Za -->
-            <Key latin:keySpec="&#x1079;" />
-            <!-- U+107B: "ၻ" Myanmar Letter Shan Da -->
-            <Key latin:keySpec="&#x107B;" />
-            <!-- U+A9E3: "ꧣ" Myanmar Letter Shan Nna -->
-            <Key latin:keySpec="&#xA9E3;" />
-            <!-- U+109E: "႞" Myanmar Symbol Shan One -->
-            <Key latin:keySpec="&#x109E;" />
-            <!-- U+107F: "ၿ" Myanmar Letter Shan Ba -->
-            <Key latin:keySpec="&#x107F;" />
-            <!-- U+107F: "ြ" Myanmar Consonant Sign Medial Ra -->
-            <Key latin:keySpec="&#x107F;" />
-            <!-- U+1077: "ၷ" Myanmar Letter Shan Ga -->
-            <Key latin:keySpec="&#x1077;" />
-            <!-- U+1080: "ႀ" Myanmar Letter Shan Tha -->
-            <Key latin:keySpec="&#x1080;" />
-            <!-- U+101D: "ဝ" Myanmar Letter Wa -->
-            <Key latin:keySpec="&#x101D;" />
-            <!-- U+1081: "ႁ" Myanmar Letter Shan Ha -->
-            <Key latin:keySpec="&#x1081;" />
+            <!-- U+1078: "ေ" Myanmar Vowel Sign E -->
+            <Key latin:keySpec="&#x1031;" />
+            <!-- U+1010: "ျ" Myanmar Consonant Sign Medial Ya -->
+            <Key latin:keySpec="&#x103B;" />
+            <!-- U+107C: "ိ" Myanmar Vowel Sign I -->
+            <Key latin:keySpec="&#x102D;" />
+            <!-- U+1019: "်" Myanmar Sign Asat -->
+            <Key latin:keySpec="&#x103A;" />
+            <!-- U+1084: "ႂ" Myanmar Consonant Sign Shan Medial Wa -->
+            <Key latin:keySpec="&#x1082;" />
+            <!-- U+1015: "ႉ" Myanmar Sign Shan Tone-5 -->
+            <Key latin:keySpec="&#x1089;" />
+            <!-- U+1075: "ႈ" Myanmar Sign Shan Tone-3 -->
+            <Key latin:keySpec="&#x1088;" />
+            <!-- U+1004: "ု" Myanmar Vowel Sign U -->
+            <Key latin:keySpec="&#x102F;" />
+            <!-- U+101E: "ူ" Myanmar Vowel Sign Uu -->
+            <Key latin:keySpec="&#x1030;" />
+            <!-- U+107A: "း" Myanmar Sign Visarga -->
+            <Key latin:keySpec="&#x1038;" />
         </default>
     </switch>
 </merge>
