@@ -20,5 +20,5 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="use_personalized_dicts_summary" msgid="590432261305469627">"เรียนรู้จากการสื่อสารและข้อมูลที่พิมพ์ของคุณเพื่อปรับปรุงคำแนะนำ"</string>
+    <string name="use_personalized_dicts_summary" msgid="590432261305469627">"လဵပ်ႈႁဵၼ်းလွင်ႈၵၢၼ်ၵပ်းသိုပ်ႇလႄႈလွၵ်းလၢႆးပေႃႉလိၵ်ႈသူတွၼ်ႈတႃႇၵမ်ႉထႅမ်ႁႂ်ႈၶိုၵ်ႉၶႅမ်ႉမႃးထႅင်ႈ"</string>
 </resources>
