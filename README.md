@@ -52,8 +52,8 @@ so if add values_shn to tools/make-keyboard-text/src/main/resources will failed 
 ```java
 ...
 	public class ScriptUtils {
-		...
-			public static final int SCRIPT_MALAYALAM = 12;
+	   ...
+	    public static final int SCRIPT_MALAYALAM = 12;
 	    public static final int SCRIPT_MYANMAR = 13;
 	    public static final int SCRIPT_SHAN = 14; // add this as new language script
 	    public static final int SCRIPT_SINHALA = 15;
@@ -63,30 +63,31 @@ so if add values_shn to tools/make-keyboard-text/src/main/resources will failed 
 	   ...
 	   
 	   static {
-	   		...
-	   		mLanguageCodeToScriptCode.put("ml", SCRIPT_MALAYALAM);
-	      mLanguageCodeToScriptCode.put("my", SCRIPT_MYANMAR);
-	      mLanguageCodeToScriptCode.put("sh", SCRIPT_SHAN); // add this script
-	      mLanguageCodeToScriptCode.put("si", SCRIPT_SINHALA);
-	      mLanguageCodeToScriptCode.put("ta", SCRIPT_TAMIL);
-	      mLanguageCodeToScriptCode.put("te", SCRIPT_TELUGU);
-	      mLanguageCodeToScriptCode.put("th", SCRIPT_THAI);
-	       ...
+	     ...
+	   	mLanguageCodeToScriptCode.put("ml", SCRIPT_MALAYALAM);
+	      	mLanguageCodeToScriptCode.put("my", SCRIPT_MYANMAR);
+	      	mLanguageCodeToScriptCode.put("sh", SCRIPT_SHAN); // add this script
+	      	mLanguageCodeToScriptCode.put("si", SCRIPT_SINHALA);
+	      	mLanguageCodeToScriptCode.put("ta", SCRIPT_TAMIL);
+	      	mLanguageCodeToScriptCode.put("te", SCRIPT_TELUGU);
+	      	mLanguageCodeToScriptCode.put("th", SCRIPT_THAI);
+	     ...
 	    }
-		...
+	     ...
 
-	public static boolean isLetterPartOfScript(final int codePoint, final int scriptId) {
-		...
+	     public static boolean isLetterPartOfScript(final int codePoint, final int scriptId) {
+		    ...
 			case SCRIPT_MYANMAR:
-    	case SCRIPT_SHAN: // add this to SCRIPT_MYANMAR case cause Shan's unicode is in Myanmar's unicode block
-      	   // Myanmar has three unicode blocks :
-        	 // Myanmar U+1000..U+109F
-         	// Myanmar extended-A U+AA60..U+AA7F
-         	// Myanmar extended-B U+A9E0..U+A9FF
-         	return (codePoint >= 0x1000 && codePoint <= 0x109F
-          	      || codePoint >= 0xAA60 && codePoint <= 0xAA7F
-            	    || codePoint >= 0xA9E0 && codePoint <= 0xA9FF);
-       ...
+			case SCRIPT_SHAN: // add this to SCRIPT_MYANMAR case cause Shan's unicode is in Myanmar's unicode block
+			    // Myanmar has three unicode blocks :
+			    // Myanmar U+1000..U+109F
+			    // Myanmar extended-A U+AA60..U+AA7F
+			    // Myanmar extended-B U+A9E0..U+A9FF
+			    return (codePoint >= 0x1000 && codePoint <= 0x109F
+			           || codePoint >= 0xAA60 && codePoint <= 0xAA7F
+				   || codePoint >= 0xA9E0 && codePoint <= 0xA9FF);
+			...
+		    ...
 ```
 
 6. copy/add app/src/main/res/values-shn/*
