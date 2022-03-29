@@ -134,3 +134,6 @@ so if add values_shn to tools/make-keyboard-text/src/main/resources will failed 
 
 - [openboard-team](https://github.com/openboard-team)
 - [AOSP Keyboard](https://android.googlesource.com/platform/packages/inputmethods/LatinIME/)
+
+### LICENSE
+GPL-3.0
