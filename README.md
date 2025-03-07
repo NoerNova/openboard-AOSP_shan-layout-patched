@@ -66,7 +66,7 @@ so if add values_shn to tools/make-keyboard-text/src/main/resources will failed 
 	     ...
 	   	mLanguageCodeToScriptCode.put("ml", SCRIPT_MALAYALAM);
 	      	mLanguageCodeToScriptCode.put("my", SCRIPT_MYANMAR);
-	      	mLanguageCodeToScriptCode.put("sh", SCRIPT_SHAN); // add this script
+	      	mLanguageCodeToScriptCode.put("shn", SCRIPT_SHAN); // add this script
 	      	mLanguageCodeToScriptCode.put("si", SCRIPT_SINHALA);
 	      	mLanguageCodeToScriptCode.put("ta", SCRIPT_TAMIL);
 	      	mLanguageCodeToScriptCode.put("te", SCRIPT_TELUGU);
